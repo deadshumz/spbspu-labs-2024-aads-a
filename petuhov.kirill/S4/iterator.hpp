@@ -7,7 +7,7 @@ namespace petuhov
 {
   template <typename Key, typename Value, typename Compare>
   class AVLTree;
-  
+
   template <typename Key, typename Value>
   class Iterator
   {
