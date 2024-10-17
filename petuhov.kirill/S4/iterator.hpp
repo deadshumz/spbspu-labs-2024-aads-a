@@ -1,13 +1,13 @@
 #ifndef ITERATOR_HPP
 #define ITERATOR_HPP
 
-#include <stack>
+#include "tree.hpp"
 
 namespace petuhov
 {
-  template <typename Key, typename Value>
-  class AVLTree; // Forward declaration of AVLTree
-
+  template <typename Key, typename Value, typename Compare>
+  class AVLTree;
+  
   template <typename Key, typename Value>
   class Iterator
   {

@@ -1,11 +1,11 @@
 #ifndef CONST_ITERATOR_HPP
 #define CONST_ITERATOR_HPP
 
-#include <stack>
+#include "tree.hpp"
 
 namespace petuhov
 {
-  template <typename Key, typename Value>
+  template <typename Key, typename Value, typename Compare>
   class AVLTree;
 
   template <typename Key, typename Value>
